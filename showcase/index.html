@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label-Liar 2.0 | AI Health Auditor Showcase</title>
+    <meta name="description" content="Showcase of Label-Liar 2.0, a Hybrid AI application that scans food ingredients for personalized health analysis using Google Gemini.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <nav class="glass-nav">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Label-Liar Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+                Label-Liar 2.0
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content" data-reveal>
+                <h1 class="neon-text">Label-Liar 2.0</h1>
+                <p class="tagline">Your AI-Powered Health Auditor. Scan smarter, live healthier.</p>
+                <div class="hero-btns">
+                    <a href="#usage" class="btn btn-primary">Get Started</a>
+                    <a href="https://github.com/karthik7133/health.git" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> View Source</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title" data-reveal>The Project</h2>
+                <p class="section-desc" data-reveal>
+                    Label-Liar 2.0 is a cutting-edge Hybrid AI application designed to demystify complex food ingredient labels. 
+                    By combining OCR technology with the power of Google Gemini Pro, it provides personalized health insights tailored to your specific dietary needs and profiles, such as "Diabetic", "Vegan", or "Allergy-prone".
+                </p>
+            </div>
+        </section>
+
+        <section id="features" class="section glass-section">
+            <div class="container">
+                <h2 class="section-title" data-reveal>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card" data-reveal>
+                        <i class="fas fa-camera"></i>
+                        <h3>OCR Ingredient Scanning</h3>
+                        <p>Powered by Google ML Kit to accurately read even the most complex labels instantly.</p>
+                    </div>
+                    <div class="feature-card" data-reveal>
+                        <i class="fas fa-brain"></i>
+                        <h3>AI Health Auditor</h3>
+                        <p>Uses Google Gemini Pro to interpret scans and provide deep nutritional analysis.</p>
+                    </div>
+                    <div class="feature-card" data-reveal>
+                        <i class="fas fa-user-circle"></i>
+                        <h3>Personalized Profiles</h3>
+                        <p>Custom logic for various health conditions like Diabetes, Vegan diets, and more.</p>
+                    </div>
+                    <div class="feature-card" data-reveal>
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Premium UI/UX</h3>
+                        <p>A modern glassmorphism interface that makes health tracking a beautiful experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tech-stack" class="section">
+            <div class="container">
+                <h2 class="section-title" data-reveal>The Tech Stack</h2>
+                <div class="stack-container">
+                    <div class="stack-item" data-reveal>
+                        <span class="stack-category">Frontend</span>
+                        <h3>Flutter</h3>
+                        <p>Cross-platform mobile application optimized for Android with custom Dart services.</p>
+                    </div>
+                    <div class="stack-item" data-reveal>
+                        <span class="stack-category">Backend</span>
+                        <h3>Node.js & Express</h3>
+                        <p>Robust server handling API requests, Gemini integrations, and MongoDB connections.</p>
+                    </div>
+                    <div class="stack-item" data-reveal>
+                        <span class="stack-category">Intelligence</span>
+                        <h3>Google Gemini Pro</h3>
+                        <p>State-of-the-art LLM for intelligent interpretation of food ingredients.</p>
+                    </div>
+                    <div class="stack-item" data-reveal>
+                        <span class="stack-category">Database</span>
+                        <h3>MongoDB</h3>
+                        <p>Scalable NoSQL database for managing user profiles and audit history.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="usage" class="section glass-section">
+            <div class="container">
+                <h2 class="section-title" data-reveal>How to Use</h2>
+                <div class="usage-steps">
+                    <div class="step" data-reveal>
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                            <h3>Setup Backend</h3>
+                            <pre><code>cd backend
+npm install
+npm start</code></pre>
+                            <p>Server starts at <code>http://localhost:5000</code></p>
+                        </div>
+                    </div>
+                    <div class="step" data-reveal>
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                            <h3>Run Frontend</h3>
+                            <pre><code>cd frontend
+flutter pub get
+flutter run</code></pre>
+                            <p>Optimized for Android mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section footer">
+            <div class="container">
+                <h2 class="section-title" data-reveal>Connect with Me</h2>
+                <div class="contact-links" data-reveal>
+                    <a href="https://www.linkedin.com/in/chipinapikarthik/" target="_blank" class="contact-card neon-border">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:chkarthik853@gmail.com" class="contact-card neon-border">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/karthik7133/health.git" target="_blank" class="contact-card neon-border">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+                <p class="copyright">&copy; 2024 Kartik. All rights reserved.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

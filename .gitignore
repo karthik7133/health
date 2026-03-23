@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+.gradle/
+local.properties
+*.keystore
+*.jks
+*.properties
+flutter_export_environment.sh
+android/**/generated/
+android/app/src/main/res/drawable-*/
+android/app/src/main/res/mipmap-*/
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/*.mode1v3
+**/*.mode2v3
+**/*.moved-aside
+**/*.pbxuser
+**/*.perspectivev3
+DerivedData/
+IPHONEOS_DEPLOYMENT_TARGET
+Pods/
+rcg.xcconfig
+xcuserdata/
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+ProjectProcess.xcconfig
+
+# OS/IDEs
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.iws
+*.swp
+*.bak
+*.tmp
+*.temp
+Desktop.ini
+Thumbs.db
